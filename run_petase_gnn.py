@@ -374,7 +374,7 @@ def main():
     
     # Load data
     df = load_and_prepare_data(
-        '/mnt/user-data/uploads/MASTER_DB.xlsx',
+        './MASTER_DB.xlsx',
         embedding_dir='embeddings'
     )
     
