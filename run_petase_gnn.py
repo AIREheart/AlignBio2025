@@ -374,7 +374,7 @@ def main():
     
     # Load data
     df = load_and_prepare_data(
-        './MASTER_DB.xlsx',
+        '/content/AlignBio2025/MASTER_DB.xlsx',
         embedding_dir='embeddings'
     )
     
